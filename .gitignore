@@ -1,0 +1,83 @@
+Frameworks/
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Frameworks
+*.xcframework
+*.framework
+
+# CocoaPods
+Pods/
+*.xcworkspace
+Podfile.lock
+
+# Swift Package Manager
+.build/
+Package.resolved
+.swiftpm
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+injectionforxcode/
+
+# Environment variables
+.env
+.env.local
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace/
+
+# IDE specific files
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# App specific
+build/
+*.xcarchive
+
+# Machine Learning Models
+*.onnx
+*.mlmodel
+*.tflite
+*.model
+model_data/
+*.bin
+*.pt
+*.pth
+weights/
+saved_models/
